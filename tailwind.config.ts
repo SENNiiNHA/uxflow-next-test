@@ -25,6 +25,9 @@ export default {
         },
         dark: '#222222',
       },
+      spacing: {
+        xl2: '1440px'
+      },
       keyframes: {
         flicker: {
           '0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100%': {
