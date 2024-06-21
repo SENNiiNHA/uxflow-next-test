@@ -1,6 +1,8 @@
 "use client";
 
 
+import ProductCard from "@/components/molecules/ProductCard";
+
 import { Search } from "@/assets";
 
 
@@ -16,8 +18,8 @@ export default function List() {
             </div>
           </div>
           <div className="w-full flex gap-6 px-[104px]">
-            <div className="w-full flex flex-col gap-4">
-              <div className="w-full max-xl2 flex justify-between">
+            <div className="w-full max-w-[290px] flex flex-col gap-4">
+              {/* <div className="w-full max-xl2 flex justify-between"> */}
                 <div className="w-[290px] h-auto bg-gray-50 p-4 rounded-lg">
                   <div className="flex flex-col bg-white p-4 rounded-lg gap-4">
                     <p className="font-semibold">Categorias</p>
@@ -27,8 +29,8 @@ export default function List() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="w-full max-xl2 flex justify-between">
+              {/* </div> */}
+              {/* <div className="w-full max-xl2 flex justify-between"> */}
                 <div className="w-[290px] h-auto bg-gray-50 p-4 rounded-lg">
                   <div className="flex flex-col bg-white p-4 rounded-lg gap-4">
                     <p className="font-semibold">Preço</p>
@@ -38,11 +40,16 @@ export default function List() {
                     </div>
                   </div>
                 </div>
-              </div>
+              {/* </div> */}
             </div>
-            <div className="w-full flex gap-4">
+            <div className="w-full flex flex-wrap gap-6">
               {/* {data ? data.map((product: Product) => <ProductCard key={product.id} product={product} />) :} */}
-              {/* <ProductCard id={1}/> */}
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
             </div>
           </div>
         </div>;
