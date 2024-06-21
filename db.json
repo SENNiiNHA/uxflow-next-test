@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "Tênis Casual",
+      "title": "Sapatenis Masculino Branco Tênis Casual FLOW para Dia a Dia - Camursa",
+      "price": 2000,
+      "hasDiscount": true,
+      "discount": 10
+    },
+    {
+      "id": 2,
+      "category": "Tênis Casual",
+      "title": "Sapatenis Masculino Branco Tênis Casual FLOW para Dia a Dia - Camursa",
+      "price": 2000,
+      "hasDiscount": true,
+      "discount": 10
+    },
+    {
+      "id": 3,
+      "category": "Tênis Casual",
+      "title": "Sapatenis Masculino Branco Tênis Casual FLOW para Dia a Dia - Camursa",
+      "price": 2000,
+      "hasDiscount": true,
+      "discount": 10
+    },
+    {
+      "id": 4,
+      "category": "Tênis Casual",
+      "title": "Sapatenis Masculino Branco Tênis Casual FLOW para Dia a Dia - Camursa",
+      "price": 2000,
+      "hasDiscount": true,
+      "discount": 10
+    },
+    {
+      "id": 5,
+      "category": "Tênis Casual",
+      "title": "Sapatenis Masculino Branco Tênis Casual FLOW para Dia a Dia - Camursa",
+      "price": 2000,
+      "hasDiscount": true,
+      "discount": 10
+    },
+    {
+      "id": 6,
+      "category": "Tênis Casual",
+      "title": "Sapatenis Masculino Branco Tênis Casual FLOW para Dia a Dia - Camursa",
+      "price": 2000,
+      "hasDiscount": true,
+      "discount": 10
+    }
+  ],
+  "categories": [
+    {
+      "name": "Botas",
+      "category": "BOOTS"
+    },
+    {
+      "name": "Chinelos",
+      "category": "FLIPFLOPS"
+    },
+    {
+      "name": "Chuteiras",
+      "category": "SOCCER_TENNIS"
+    },
+    {
+      "name": "Sandálias",
+      "category": "SANDALS"
+    },
+    {
+      "name": "Sapatênis",
+      "category": "SNEAKERS"
+    },
+    {
+      "name": "Tênis",
+      "category": "SHOES"
+    },
+    {
+      "name": "Tênis de corrida",
+      "category": "RUNNING_SHOES"
+    }
+  ]
+}
