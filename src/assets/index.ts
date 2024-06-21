@@ -1,5 +1,8 @@
 //Images
 export {default as Logo} from './img/flowlogo.svg';
+export {default as Shoes01} from './img/shoes01.webp';
+export {default as Shoes02} from './img/shoes02.webp';
+export {default as Shoes03} from './img/shoes03.webp';
 export {default as Success} from './img/success.svg';
 
 //Icons

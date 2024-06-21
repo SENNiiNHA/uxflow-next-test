@@ -1,26 +1,11 @@
 "use client";
-import { useEffect, useState } from "react";
+
 
 import { Search } from "@/assets";
 
 
 
 export default function List() {
-  const [data, setData] = useState(null)
-  const [isLoading, setLoading] = useState(true)
-
-  useEffect(() => {
-    fetch('https://my-json-server.typicode.com/SENNiiNHA/uxflow-next-test/products')
-      .then((res) => res.json())
-      .then((data) => {
-        setData(data)
-        setLoading(false)
-      })
-  }, [])
-
-  useEffect(() => {
-    console.log(data)
-  },[data])
 
   return <div className="w-full bg-white flex items-center justify-center gap-12 flex-col">
           <div className="w-full max-xl2 px-[104px] flex justify-between">
@@ -56,6 +41,7 @@ export default function List() {
               </div>
             </div>
             <div className="w-full flex gap-4">
+              {/* {data ? data.map((product: Product) => <ProductCard key={product.id} product={product} />) :} */}
               {/* <ProductCard id={1}/> */}
             </div>
           </div>
