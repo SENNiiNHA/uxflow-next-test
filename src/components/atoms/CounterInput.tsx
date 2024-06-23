@@ -19,7 +19,6 @@ const CounterInput = ({
   ...rest
 }: CounterInputProps) => {
   const [count, setCount] = useState<number>(value);
-  const [isFocused, setIsFocused] = useState(false);
 
   const countIncrease = () => {
     if (count >= max) return;
@@ -41,8 +40,6 @@ const CounterInput = ({
       <input
         type="number"
         value={count}
-        onFocus={() => setIsFocused(true)}
-        onBlur={() => setIsFocused(false)}
         disabled
         className="w-full bg-gray-100 border-none outline-none text-gray-500 text-center text-md"
         {...rest}
