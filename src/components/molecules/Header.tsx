@@ -6,7 +6,7 @@ export default function Header() {
 
   return <div className="w-full bg-white flex items-center justify-center h-16 px-[104px] py-5 border-b-2 border-gray-100">
           <div className="w-full max-w-xl2 flex justify-between">
-              <Logo className="w-[147px] h-[24px]"/>
+              <Link href='/'><Logo className="w-[147px] h-[24px]"/></Link>
               <div className='flex gap-4 items-center'>
                 <Link className='flex gap-3 items-center' href='/cart'>
                   <ShoppingBag className="w-4 h-4"/>
